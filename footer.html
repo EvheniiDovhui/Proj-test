@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
     <footer>
-      <img class="footer-line" src="./svg/Vector 7.svg" alt="footer-line">
+      <img class="footer-line" src="./svg/Vector 7.svg" alt="footer-line" />
       <section class="logo-section">
-        <a class="logo-img" href="./index.html"><img src="./logo/Vector.svg" alt="logo" /></a>
-        <a class="logo-link" href="./index.html">CUCINA</a>
+        <ul class="logo-list">
+          <li>
+            <a class="logo-img" href="./index.html"
+              ><img src="./logo/Vector.svg" alt="logo"
+            /></a>
+          </li>
+          <li>
+            <a class="logo-link" href="./index.html">CUCINA</a>
+          </li>
+        </ul>
       </section>
       <section class="footer-nav">
         <ul class="footer-nav-list">
@@ -31,29 +39,27 @@
       </section>
       <section class="address-section">
         <address>
-          <ul class="address-section-list">
-            <li class="address-section-list-location">
-              <a href="./index.html"
-                ><img src="./svg/ep_location.svg" alt="location"
-              /></a>
-              <a href="https://www.google.com.ua/maps"
-                >Elvia Elviaveien 1, 1234 Oslo</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img src="./svg/clarity_email-line.svg" alt="email"
-              /></a>
-              <a href="mailto:willie.jennings@example.com"
-                >willie.jennings@example.com</a
-              >
-            </li>
-          </ul>
+          <div class="address-div-location">
+            <a href="./index.html"
+              ><img src="./svg/ep_location.svg" alt="location"
+            /></a>
+            <a href="https://www.google.com.ua/maps"
+              >Elvia Elviaveien 1, 1234 Oslo</a
+            >
+          </div>
+          <div class="address-div-email">
+            <a href=""
+              ><img src="./svg/clarity_email-line.svg" alt="email"
+            /></a>
+            <a href="mailto:willie.jennings@example.com"
+              >willie.jennings@example.com</a
+            >
+          </div>
         </address>
       </section>
-      <section>
+      <section class="social-links-section">
         <address>
-          <ul>
+          <ul class="social-links-list">
             <li>
               <a href="https://www.tumblr.com/"
                 ><img
@@ -86,10 +92,10 @@
         </address>
       </section>
       <section>
-        <p>
+        <p class="footer-text">
           By using this website, you agree to the
-          <span><a href="./index">Terms of Service</a></span> and
-          <span><a href="./index">Privacy Policy</a></span>
+          <a href="./index">Terms of Service</a> and
+          <a href="./index">Privacy Policy</a>
         </p>
       </section>
     </footer>
