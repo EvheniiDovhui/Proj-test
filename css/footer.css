@@ -8,6 +8,11 @@ ul {
   list-style: none;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .footer-line {
   color: #f3f3f3;
   width: 1280.004px;
@@ -48,9 +53,7 @@ ul {
   color: var(--genoa, #f3f3f3);
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .footer-nav {
@@ -75,7 +78,6 @@ ul {
 }
 
 .address-section {
-  box-sizing: border-box;
   display: inline-flex;
   width: 253px;
   height: 88px;
@@ -83,11 +85,10 @@ ul {
   text-decoration: none;
   padding: 0;
   margin: 44px 218px 88px 0;
-  border: #100f0f;
 }
 
 .address-div-location {
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 .address-div-location > a,
@@ -98,6 +99,8 @@ ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  display: inline-flex;
+  margin-right: 8px;
 }
 
 .social-links-section {
