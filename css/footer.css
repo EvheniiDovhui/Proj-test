@@ -1,5 +1,6 @@
 footer {
   background: #100f0f;
+  width: auto;
 }
 
 a,
@@ -13,7 +14,7 @@ p {
   padding: 0;
 }
 
-.footer-line {
+/* .footer-line {
   color: #f3f3f3;
   width: 1280.004px;
   height: 1px;
@@ -21,15 +22,18 @@ p {
   stroke-width: 1px;
   stroke: #f3f3f3;
   margin: 100px 0 0 0;
-}
+} */
+
 
 
 .footer-inline-blocks {
   display: inline-flex;
+  border-top: 1px solid #f3f3f3;
+  margin-top: 100px;
 }
 
 .logo-section {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -79,8 +83,6 @@ p {
 
 .address-section {
   display: inline-flex;
-  width: 253px;
-  height: 88px;
   flex-shrink: 0;
   text-decoration: none;
   padding: 0;
